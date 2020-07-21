@@ -19,11 +19,9 @@
             .offer__video-button
               i.fa.fa-play
             .offer__video-desc Краткое видео о работе сервиса
-  <div class="offer__svg">
-      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 24305 2741.844">
-          <path id="Фигура_4" fill="#ffffff" class="cls-1" d="M24255,1072l25,1645L0,2767V1122s5045.65,2442.07,10816,847C16586.4,373.929,19233.8-274.214,21632,349S24255,1072,24255,1072Z"/>
-      </svg>
-  </div>
+  .offer__svg
+    svg(xmlns="http://www.w3.org/2000/svg", width="100%", height="auto", viewBox="0 0 24305 2741.844")
+      path(id="Фигура_4", fill="#ffffff", class="cls-1", d="M24255,1072l25,1645L0,2767V1122s5045.65,2442.07,10816,847C16586.4,373.929,19233.8-274.214,21632,349S24255,1072,24255,1072Z")
 </template>
 
 <script>
@@ -40,10 +38,10 @@ export default {
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-  /*@font-face {
+  @font-face {
     font-family: Inspiration;
-    src*: url(../src/inspiration.woff);
-  }*/
+    src: url(../assets/inspiration.woff);
+  }
 
   *{
     margin:0;
