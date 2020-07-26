@@ -8,7 +8,7 @@ section.types
       .row
         .col4
         .col-4
-          .types-item(style="background-image:url(./static/img/types_1.png)")
+          .types-item(style="background-image:url(/static/img/type_1.png)")
             .types-item__inner
               .types-item__descr.italic От любой боли
               .types-item__title
@@ -17,7 +17,7 @@ section.types
                 | массаж
               .types-item__button Подробнее
         .col-4
-          .types-item(style="background-image:url(./static/img/types_2.png)")
+          .types-item(style="background-image:url(/static/img/type_2.png)")
             .types-item__inner
               .types-item__descr.italic Снимет усталость
               .types-item__title
@@ -26,7 +26,7 @@ section.types
                 | массаж
               .types-item__button.types-item__button_blue Подробнее
         .col-4
-          .types-item(style="background-image:url(./static/img/types_3.png)")
+          .types-item(style="background-image:url(/static/img/type_3.png)")
             .types-item__inner
               .types-item__descr.italic Для точеной фигурки
               .types-item__title
@@ -35,7 +35,7 @@ section.types
                 | массаж
               .types-item__button Подробнее
         .col-4
-          .types-item(style="background-image:url(./static/img/types_4.png)")
+          .types-item(style="background-image:url(/static/img/type_4.png)")
             .types-item__inner
               .types-item__descr.italic Для самых нежных
               .types-item__title
@@ -44,7 +44,7 @@ section.types
                 | массаж
               .types-item__button.types-item__button_blue Подробнее
         .col-4
-          .types-item(style="background-image:url(./static/img/types_5.png)")
+          .types-item(style="background-image:url(/static/img/type_5.png)")
             .types-item__inner
               .types-item__descr.italic Профессиональный
               .types-item__title
@@ -53,7 +53,7 @@ section.types
                 | массаж
               .types-item__button Подробнее
         .col-4
-          .types-item(style="background-image:url(./static/img/types_6.png)")
+          .types-item(style="background-image:url(/static/img/type_6.png)")
             .types-item__inner
               .types-item__descr.italic Секретный метод
               .types-item__title
