@@ -17,7 +17,7 @@ section.advantages
       .adv-item
         img.adv-item__img(src="/static/img/adv_4.png",width="70%",height="auto")
         .adv-item__text УЮТНАЯ домашняя атмосфера
-    .adv-items__button.button Оставить заявку
+    a.adv-items__button.button Оставить заявку
 </template>
 
 <script>
@@ -53,9 +53,10 @@ export default {
     margin: 20px auto;
   }
 
-  .adv-items__button{
+  a.adv-items__button{
     width: 300px;
     text-align: center;
+    display: block;
     margin: 30px auto;
   }
 </style>

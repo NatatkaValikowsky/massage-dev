@@ -29,7 +29,7 @@ section.news
           .news-item__date 21.04.2020 / новости
           a(href="#")
             .news-item__title природные средства для массажа
-    .news__button.button Читать блог
+    a.news__button.button Читать блог
 </template>
 
 <script>
@@ -45,6 +45,7 @@ export default {
   .news{
     margin-top: 50px;
     background-color: #FAF7F7;
+    padding-bottom: 70px;
 
     .title-block{
       padding-top: 50px;
@@ -90,9 +91,10 @@ export default {
     color: #000;
   }
 
-  .news__button{
+  a.news__button{
+    display: block;
     width: 300px;
     text-align: center;
-    margin: 30px auto;
+    margin: 30px auto 0 auto;
   }
 </style>
